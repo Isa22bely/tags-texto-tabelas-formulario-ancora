@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+</head>
+<body>
+    <header>
+        <img src="/img/banner.avif" alt="Banner de inf">
+        <h1>CEFET-MG-Campos de Varginha-Curso Técnico</h1>
+        <a href="/index.html"> Início</a>
+        <a href="/pages/table.html">Curso</a>
+        <a href="/pages/question.html">FAQ</a>  
+        <a href="/pages/form.html">Contato</a>
+    </header>
+
+    <form action="" method="post" enctype="multipart/form-data">
+
+        <fieldset>
+            <legend>Contato</legend>
+           <label for="Nome">Nome: </label> 
+           <input type="text" name="Nome" placeholder="João"> </br>
+           <label for="Email">Email: </label>
+           <input type="email" name="Email" placeholder="name@email"> </br>
+           <input type="radio" name="M" id="M" value="1">
+           <label for="M">Masculino</label>
+           <input type="radio" name="F" id="F" value="2">
+           <label for="F">Feminino</label> </br>
+           <label for="estado">Estado/Cidade </label>
+           <select name="estado" id="estado" required>
+           <option></option>
+           <option value="1">MG</option>
+           <option value="2">SP</option>
+       </select>
+       <input type="text" name="cidade" placeholder="Varginha"> </br>
+       <label for="documento">Selecione um arquivo</label>
+       <input type="file" name="documento"> </br>
+       <label for="Sugestao">Sugestão</label>  </br>
+       <textarea name="Sugestao" id="Sugestao" cols="50" rows="3"></textarea>
+        </fieldset>
+
+    </form>
+    <tfoot>
+        &copy; copyleft
+    </tfoot>
+</body>
+</html>

@@ -1,0 +1,48 @@
+
+
+:root{
+    --primary:#3b6fd1;
+    --white: #ffff;
+    --black: #0000;
+
+}
+
+header{
+    background-image: url(/img/banner.avif);
+}
+
+header h1{
+    color: var(--white);
+    text-align: center;
+}
+header nav{
+    border-bottom: 2.0rem var(--primary);
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+section{
+    height: 100vh;
+}
+
+section h4{
+    text-decoration: none;
+    
+}
+
+section a{
+    text-decoration: none;
+    color: black;
+}
+
+form label input {
+    padding: 1rem 0;
+}
+
+table tr th, table tr td {
+    border: 0.1rem solid black;
+}
+table{
+    border-color: #a130a1;
+}
